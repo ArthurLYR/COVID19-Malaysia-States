@@ -4,13 +4,13 @@
     "width": 800,
     "height": 400,
     "projection": {
-        "type": "equirectangular"
+        "type": "equalEarth"
     },
     "data": {
-        "url": "malaysia-states.json",
+        "url": "../data/malaysia_states.topojson",
         "format": {
             "type": "topojson",
-            "feature": "malaysia-states"
+            "feature": "malaysia_states"
         }
     },
     "mark": {

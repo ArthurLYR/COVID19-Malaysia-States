@@ -7,10 +7,10 @@
         "type": "equalEarth"
     },
     "data": {
-        "url": "../data/malaysia_states.topojson",
+        "url": "../data/ne_110m_admin_0_countries.topojson",
         "format": {
             "type": "topojson",
-            "feature": "malaysia_states"
+            "feature": "ne_110m_admin_0_countries"
         }
     },
     "mark": {

@@ -1,0 +1,22 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "COVID-19 Active Cases in Malaysia by State",
+    "width": 1500,
+    "height": 400,
+    "projection": {
+        "type": "equalEarth"
+    },
+    "data": {
+        "url": "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/cases_state.csv"
+    },
+    "mark": {"type": "bar"},
+    "transform": [
+        {
+            "filter": "datum.date == '2021-07-27'"
+        }
+    ],
+    "encoding": {
+        "x": { "field": "cases_active", "type": "quantitative", "title":"Active Cases"},
+        "y": { "field": "state", "type": "nominal", "title": null}
+    }
+}

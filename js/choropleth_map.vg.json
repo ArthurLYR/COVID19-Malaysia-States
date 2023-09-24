@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "COVID-19 Active Cases in Malaysia (2023-09-23)",
+    "title": "COVID-19 Active Cases in Malaysia",
     "width": 800,
     "height": 400,
     "projection": {
@@ -33,7 +33,7 @@
             "mark": {
                 "type": "geoshape",
                 "fill": null,
-                "stroke": "#f0f0f0"
+                "stroke": "lightgray"
             }
         },
         {
@@ -46,8 +46,8 @@
             },
             "mark": {
                 "type": "geoshape",
-                "fill": "#e1e1e1",
-                "stroke": "#e1e1e1",
+                "fill": "#f0f0f0",
+                "stroke": "#f0f0f0",
                 "strokeWidth": 1
             }
         },
